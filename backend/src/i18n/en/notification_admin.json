@@ -1,0 +1,12 @@
+{
+  "your_account_suspended": "Your account is suspended by Marketplace.",
+  "employer_suspended_task_cancelled": "Employer \"{user_name}\"'s task {task_title} has been marked as cancelled as that account is suspended.",
+  "account_suspended_open_task_cancelled": "Your open task \"{task_title}\" has been marked as cancelled as your account is suspended.",
+  "bid_placed_task_cancelled": "The task \"{task_title}\" on which you have placed your bid is now cancelled.",
+  "account_suspended_archived_task_cancelled": "Your archived task \"{task_title}\" has been marked as cancelled as your account is suspended.",
+  "account_suspended_active_task_cancelled": "Your active task \"{task_title}\" has been marked as cancelled as your account is suspended.",
+  "employer_account_suspended_removed_from_task": "You have been removed from the task \"{task_title}\" as employer {user_name}'s account is suspended.",
+  "account_suspended_removed_from_task": "You have been removed from the task \"{task_title}\" as your account is suspended.",
+  "specialist_account_suspended_task_open_again": "Specialist {user_name} been removed from the task \"{task_title}\" as that account is suspended and the task is open again.",
+  "your_task_open_again_as_specialist_account_suspended": "Your task \"{task_title}\" is open again as active specialist {user_name}'s account is suspended."
+}

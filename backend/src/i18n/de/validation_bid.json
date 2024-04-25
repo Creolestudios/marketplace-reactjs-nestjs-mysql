@@ -1,0 +1,7 @@
+{
+  "no_open_bid_to_accept": "Der blev ikke fundet noget åbent bud på det givne id, der skal accepteres",
+  "no_accepted_bid": "Der blev ikke fundet noget accepteret bud på det givne id",
+  "no_open_bid_to_reject": "Der blev ikke fundet noget åbent bud på det givne id at afvise",
+  "bid_no_longer_open": "BID er ikke længere åbent for at blive opdateret",
+  "bid_no_longer_created_cancelled": "Da du har annulleret buddet, kan du ikke placere det igen"
+}

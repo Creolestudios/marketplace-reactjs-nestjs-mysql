@@ -1,0 +1,6 @@
+{
+  "category_not_exits": "Category does not exits",
+  "sub_category_not_exits": "Sub category does not exits",
+  "sub_category_exits": "Sub category already exits",
+  "services_not_exits": "Services do not exits"
+}

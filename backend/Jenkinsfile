@@ -1,0 +1,50 @@
+pipeline {
+    agent { dockerfile true}
+    stages {
+        stage("Build Docker Compose from Develop") {
+            steps {
+                script{
+                    // bitbucketStatusNotify buildState: "INPROGRESS"
+                    if (env.BRANCH_NAME == 'develop') {
+                    echo 'Docker Compose Version'
+                    sh "sudo docker-compose -v"
+
+                    hangoutsNotify message: "Previous Marketplace Build has been stopped",token: "bMaMLG_1-nF94ko00WxMFziiD",threadByJob: false
+                    echo 'Stopping Docker Compose'
+                    sh "sudo docker-compose stop prod || true"
+
+                    hangoutsNotify message: "New Marketplace Build has been started",token: "bMaMLG_1-nF94ko00WxMFziiD",threadByJob: false
+                    echo 'Building Docker Compose and Starting'
+                    sh "sudo docker-compose up -d --no-deps --build prod"
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+      always {
+            echo 'Pipeline Completed !'
+      }
+
+      success {
+          script{
+              echo 'Pipeline was a success !'
+              if (env.BRANCH_NAME == 'develop') {
+                // bitbucketStatusNotify buildState: "SUCCESSFUL"
+                hangoutsNotify message: "Marketplace Develop Build was a success",token: "bMaMLG_1-nF94ko00WxMFziiD",threadByJob: false
+              } 
+          }
+      }
+
+      failure {
+          script{
+              echo 'Pipeline was a failure !'
+              if (env.BRANCH_NAME == 'develop') {
+                // bitbucketStatusNotify buildState: "FAILURE"
+                hangoutsNotify message: "Marketplace Develop branch Build was a failure",token: "bMaMLG_1-nF94ko00WxMFziiD",threadByJob: false
+              } 
+          }
+      }
+    }
+}

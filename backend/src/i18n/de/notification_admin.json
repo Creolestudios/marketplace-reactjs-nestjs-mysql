@@ -1,0 +1,12 @@
+{
+  "your_account_suspended": "Din konto er suspenderet af Marketplace.",
+  "employer_suspended_task_cancelled": "Arbejdsgiver \"{user_name}\" s opgave {task_title} er blevet markeret som annulleret, da den konto er suspenderet.",
+  "account_suspended_open_task_cancelled": "Din åbne opgave \"{task_title}\" er blevet markeret som annulleret, da din konto er suspenderet.",
+  "bid_placed_task_cancelled": "Opgaven \"{task_title}\", som du har lagt dit bud på, er nu annulleret.",
+  "account_suspended_archived_task_cancelled": "Din arkiverede opgave \"{task_title}\" er blevet markeret som annulleret, da din konto er suspenderet.",
+  "account_suspended_active_task_cancelled": "Din aktive opgave \"{task_title}\" er blevet markeret som annulleret, da din konto er suspenderet.",
+  "employer_account_suspended_removed_from_task": "Du er blevet fjernet fra opgaven \"{task_title}\", da arbejdsgiverens {user_name} 's konto er suspenderet.",
+  "account_suspended_removed_from_task": "Du er blevet fjernet fra opgaven \"{task_title}\", da din konto er suspenderet.",
+  "specialist_account_suspended_task_open_again": "Specialisten {user_name} er blevet fjernet fra opgaven \"{task_title}\", da den konto er suspenderet, og opgaven er åben igen.",
+  "your_task_open_again_as_specialist_account_suspended": "Din opgave \"{task_title}\" er åben igen, da aktiv specialist {user_name} 's konto er suspenderet."
+}

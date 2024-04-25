@@ -1,0 +1,9 @@
+{
+  "no_parent_category": "Der blev ikke fundet nogen forældrekategori for et givet id",
+  "no_sub_category": "Der blev ikke fundet nogen underkategori for et givet id",
+  "category_exists": "Kategori med lignende navn findes allerede",
+  "sub_category_exists": "Underkategori med lignende navn findes allerede",
+  "parent_category_used_in_task": "Denne overordnede kategori bliver brugt i en opgave",
+  "sub_category_used_in_task": "Denne underkategori bliver brugt i en opgave",
+  "sub_category_in_use": "Underkategori bliver brugt i en opgave"
+}

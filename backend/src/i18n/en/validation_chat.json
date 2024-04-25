@@ -1,0 +1,12 @@
+{
+  "no_init_chat": "User can not initialize the chat",
+  "no_attachment_open_task": "No attachment can be sent because task status is open",
+  "no_room_found": "No chat room found for given ID",
+  "room_not_active": "Given room ID is not active",
+  "user_not_participant": "User is not a participant in this room ID",
+  "user_can_not_archived_chat": "User can not read the permanent deleted chat",
+  "room_not_active_trash": "Given room ID is not active to move to trash",
+  "room_already_archived": "Given room ID is already archived",
+  "room_permanent_deleted": "Give room is already deleted, can not read deleted data",
+  "room_not_trash_archive": "Given room ID is not in trash to move to permanent delete"
+}

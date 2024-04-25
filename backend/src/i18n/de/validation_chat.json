@@ -1,0 +1,12 @@
+{
+  "no_init_chat": "Brugeren kan ikke initialisere chatten",
+  "no_attachment_open_task": "Der kan ikke sendes nogen vedhæftet fil, fordi opgavestatus er åben",
+  "no_room_found": "Der blev ikke fundet et chatrum for et givet id",
+  "room_not_active": "Givet værelse -id er ikke aktivt",
+  "user_not_participant": "Bruger er ikke deltager i dette værelse -id",
+  "user_can_not_archived_chat": "Brugeren kan ikke læse den permanent slettede chat",
+  "room_not_active_trash": "Givet værelse -id er ikke aktivt for at flytte til papirkurven",
+  "room_already_archived": "Givet værelse -id er allerede arkiveret",
+  "room_permanent_deleted": "Giv plads er allerede slettet, kan ikke læse slettede data",
+  "room_not_trash_archive": "Givet værelse -id er ikke i papirkurven for at flytte til permanent sletning"
+}

@@ -1,0 +1,7 @@
+.image-gallery-image {
+  object-fit: contain !important;
+}
+
+.image-gallery-thumbnail-image {
+  object-fit: contain !important;
+}

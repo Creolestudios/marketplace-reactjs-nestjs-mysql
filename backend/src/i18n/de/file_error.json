@@ -1,0 +1,9 @@
+{
+  "edit_file_name": "Error in editFileName",
+  "file_upload": "Error in File Upload",
+  "invalid_extension": "Kun jpg, png, jpeg, mp3, mp4 filer er tilladt!",
+  "invalid_extension_chat": "Kun jpg, png, jpeg, mp4, mov, pdf, doc, xls filer er tilladt!",
+  "big_image": "Billedfilen er for stor, maks. Tilladt er 2 MB",
+  "big_image_application": "Givet fil er for stor, er maks. Tilladt 2 MB",
+  "big_video": "Videofilen er for stor, maks. Tilladt er 5 MB"
+}

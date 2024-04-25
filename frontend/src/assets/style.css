@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xuljpk');
+  src:  url('fonts/icomoon.eot?xuljpk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xuljpk') format('truetype'),
+    url('fonts/icomoon.woff?xuljpk') format('woff'),
+    url('fonts/icomoon.svg?xuljpk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bussiness:before {
+  content: "\e900";
+  color: #2aabe1;
+}
+.icon-delete:before {
+  content: "\e901";
+  color: #ed4c5c;
+}
+.icon-envelop:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-freelancer:before {
+  content: "\e904";
+  color: #758287;
+}
+.icon-google:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-Union:before {
+  content: "\e906";
+}
+.icon-instagram:before {
+  content: "\e907";
+  color: #758287;
+}
+.icon-linked-in:before {
+  content: "\e908";
+  color: #758287;
+}
+.icon-notification:before {
+  content: "\e909";
+}
+.selected-flag{
+  /* content: "\e90a";
+  color: #ed4c5c; */
+  width: 25px;
+}
+.icon-twitter:before {
+  content: "\e90b";
+  color: #758287;
+}
+.icon-cunstruction:before {
+  content: "\e90c";
+  color: #cdcdcd;
+}
+.icon-down-rembo:before {
+  content: "\e90d";
+  color: #cdcdcd;
+}
+.icon-handyman:before {
+  content: "\e90e";
+  color: #cdcdcd;
+}
+.icon-location:before {
+  content: "\e90f";
+  color: #758287;
+}
+.icon-down-arrow:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-cross:before {
+  content: "\e911";
+  color: #758287;
+}
+.icon-plumbing-work:before {
+  content: "\e912";
+  color: #cdcdcd;
+}
+.icon-construction-repair1:before {
+  content: "\e913";
+  color: #cdcdcd;
+}
+.icon-left-arrow:before {
+  content: "\e914";
+  color: #758287;
+}
+.icon-specialist:before {
+  content: "\e915";
+  color: #2aabe1;
+}
+.icon-correct:before {
+  content: "\e916";
+  color: #0fd346;
+}
+.icon-star:before {
+  content: "\e917";
+  color: #fcd50a;
+}
+.icon-bid:before {
+  content: "\e918";
+  color: #cdcdcd;
+}
+.icon-betch:before {
+  content: "\e919";
+  color: #fcd50a;
+}
+.icon-search:before {
+  content: "\e91a";
+  color: #758287;
+}
+.icon-invisiable:before {
+  content: "\e91b";
+  color: #758287;
+}
+.icon-visiable:before {
+  content: "\e91c";
+}
+.icon-capture:before {
+  content: "\e91d";
+  color: #fcae1d;
+}
+.icon-calender:before {
+  content: "\e91e";
+  color: #758287;
+}
+.icon-send:before {
+  content: "\e91f";
+  color: #fcae1d;
+}
+.icon-pin:before {
+  content: "\e920";
+  color: #758287;
+}
+.icon-profile:before {
+  content: "\e921";
+}
+.icon-up-arrow:before {
+  content: "\e922";
+  color: #758287;
+}
+
+.ant-spin-nested-loading > div > .ant-spin{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 40000;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 90vh;
+ }  
+
+
+

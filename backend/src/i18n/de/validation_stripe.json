@@ -1,0 +1,13 @@
+{
+  "no_stripe_id_found": "Du skal først udfylde din profil, så kan du tilføje kort.",
+  "no_default_card_found": "Der blev ikke fundet noget standardkort til din profil.",
+  "no_stripe_account_found": "Der blev ikke fundet nogen Stripe -kundekonto. Kontroller, om du har fuldført din profil og oprettet stripe connect -konto",
+  "no_stripe_standard_account": "Der blev ikke fundet en stribet standardkonto for kontoen",
+  "no_card_found_deleted": "Ingen eksisterende kort blev fundet slettet",
+  "no_card_found_default": "Der blev ikke fundet noget eksisterende kort som standard",
+  "can_receive_payout": "Udbetalinger kan modtages",
+  "can_not_receive_payout": "Udbetaling kan ikke modtages, da kontooplysninger ikke er udfyldt",
+  "stripe_account_details_missing": "Stripe -kontodokumentoplysninger mangler, skal du logge ind på din stripe -konto og kontrollere alle detaljerne",
+  "already_stripe_account_id_exists": "Der findes allerede stripe -konto -id, kan ikke oprette et nyt",
+  "card_already_added": "Givet kort er allerede tilføjet, kan ikke tilføje det samme kort igen"
+}

@@ -1,0 +1,9 @@
+{
+  "edit_file_name": "Error in editFileName",
+  "file_upload": "Error in File Upload",
+  "invalid_extension": "Only jpg,png,jpeg,mp3,mp4 files are allowed!",
+  "invalid_extension_chat": "Only jpg,png,jpeg,mp4,mov,pdf,doc,xls files are allowed!",
+  "big_image": "Image file is too large, max is allowed is 10 MB",
+  "big_image_application": "Given file is too large, max is allowed is 10 MB",
+  "big_video": "Video file is too large, max is allowed is 100 MB"
+}

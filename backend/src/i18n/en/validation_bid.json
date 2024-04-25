@@ -1,0 +1,7 @@
+{
+  "no_open_bid_to_accept": "No Open bid found for given ID to accept",
+  "no_accepted_bid": "No accepted bid found for given ID",
+  "no_open_bid_to_reject": "No Open bid found for given ID to reject",
+  "bid_no_longer_open": "BID is no longer open to be updated",
+  "bid_no_longer_created_cancelled": "As you have cancelled the bid, you can not place it again"
+}

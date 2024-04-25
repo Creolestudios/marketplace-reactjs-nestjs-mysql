@@ -1,0 +1,21 @@
+{
+  "verification_link": "Marketplace Verification Link",
+  "password_reset": "Marketplace Password Reset Link",
+  "task_created": "Task has been created",
+  "task_cancelled": "Task has been cancelled",
+  "task_cancellation_request_created_employer": "Task Cancellation Request is created by employer",
+  "task_cancellation_request_created_specialist": "Task Cancellation Request is created by specialist",
+  "task_cancellation_approved": "Task Cancellation Request has been approved",
+  "task_cancellation_rejected": "Task Cancellation Request has been rejected",
+  "task_bid_placed": "Specialist has bid on your task",
+  "task_bid_other_accepted": "Employer has awarded the task to other Specialist",
+  "task_bid_accepted": "Employer has accepted your offer",
+  "task_invite": "A task has been suggested to you",
+  "task_reported_by_employer": "Task has been Reported by Employer",
+  "task_reported_by_specialist": "Task has been Reported by Specialist",
+  "task_cancelled_employer_account_suspended": "Task has been cancelled as employer account is suspended",
+  "task_marked_completed": "Task has been marked as completed",
+  "task_open_specialist_account_suspended": "Task has been set to open as specialist account is suspended",
+  "account_suspended": "Your Marketplace account is suspended",
+  "account_activated": "Your Marketplace account is activated"
+}

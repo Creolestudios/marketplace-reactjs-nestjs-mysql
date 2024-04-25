@@ -1,0 +1,190 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Task bid not selected</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+
+        table {
+            font-family: sans-serif;
+        }
+
+        .btn {
+            background-color: #FCAE1D;
+            color: #fff !important;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22px;
+            border: 1px solid #FCAE1D;
+            transition: .2s ease-in-out;
+            border-radius: 30px;
+            padding: 10px 30px;
+            display: table;
+            width: auto;
+            text-transform: uppercase;
+            margin: 0 auto;
+        }
+
+        .btn:hover {
+            background: none;
+            color: #FCAE1D !important;
+        }
+
+        .bg-img img {
+            max-width: 210px;
+        }
+
+        .logo img {
+            max-width: 186px;
+        }
+
+        .title {
+            color: #FCAE1D;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 33px;
+            padding-bottom: 20px;
+        }
+
+        .paragraph {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+            color: #423F3F;
+        }
+
+        .pera-img {
+            vertical-align: top;
+        }
+
+        .pera-img img {
+            padding-right: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .mobile-pad-b {
+                padding: 0 20px 20px !important;
+            }
+
+            .logo {
+                padding: 0 20px 40px;
+            }
+
+            .btn {
+                margin: 0 auto;
+                font-size: 13px;
+                padding: 10px 14px;
+            }
+
+            td.btn-wrapper {
+                padding-bottom: 20px !important;
+            }
+
+            td.btn-wrapper .btn-wrap {
+                display: block;
+                padding-bottom: 20px;
+            }
+
+            .bg-img {
+                background-position: top -60px center !important;
+            }
+
+            .bg-img img {
+                max-width: 151px;
+            }
+
+            .bg-img .bg-img-inner {
+                padding: 44px 0 40px !important;
+            }
+
+            .logo img {
+                max-width: 150px;
+            }
+
+            .title {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .paragraph {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .pera-img img {
+                padding-right: 10px;
+                width: 18px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+
+            .pera-img img {
+                width: 16px;
+            }
+        }
+    </style>
+
+</head>
+
+<body bgcolor="#f2f2f2" style="margin:0; padding:0;">
+    <table bgcolor="#f2f2f2" border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td bgcolor="#f2f2f2" style="display: block; vertical-align: top;">
+                <table bgcolor="#fff" border="0" width="100%" cellpadding="0" cellspacing="0"
+                    style="max-width:600px; width: 100%; margin: 0 auto;">
+                    <tr>
+                        <td class="bg-img"
+                            style="background-image: url({{image_domain}}{{image_path}}bg.jpg); background-repeat: no-repeat;background-position: top center; text-align: center;">
+                            <img class="bg-img-inner" src="{{image_domain}}{{image_path}}suggested-task-img.png" alt="welcome-img"
+                                style="padding-top: 55px; padding-bottom: 40px; " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="logo" style="padding-bottom: 40px; text-align: center;">
+                            <img src="{{image_domain}}{{image_path}}logo.png" alt="logo" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="title">
+                           Your bid has not been selected
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                                <tr class="mobile-pad-b" style="display: table; margin: 0 auto; padding: 0 50px 40px;">
+                                    <td class="pera-img">
+                                        <img src="{{image_domain}}{{image_path}}plumber-img.png" alt="Plumber-img" />
+                                    </td>
+                                    <td class="paragraph">
+                                       Employer has awarded the task to other Specialist for given Task: {{task_title}}
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="btn-wrapper" style="padding-bottom: 48px;">
+                            <div class="btn-wrap">
+                                <a href="{{web_url}}client/task" class="btn" style="text-decoration: none;">My Tasks</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

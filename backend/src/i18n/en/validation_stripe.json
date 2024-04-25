@@ -1,0 +1,13 @@
+{
+  "no_stripe_id_found": "You need to complete your profile first then you can add card.",
+  "no_default_card_found": "No default card found for your profile.",
+  "no_stripe_account_found": "No Stripe Customer Account found, please check whether you have completed your profile and created stripe connect account",
+  "no_stripe_standard_account": "No stripe standard account found for the account",
+  "no_card_found_deleted": "No existing card found to be deleted",
+  "no_card_found_default": "No existing card found to be make default",
+  "can_receive_payout": "Payouts can be received",
+  "can_not_receive_payout": "Payout can not be received as account details are not completed",
+  "stripe_account_details_missing": "Stripe account document details are missing, please login into your stripe account and verify all the details",
+  "already_stripe_account_id_exists": "Already stripe account ID exists, can not create a new one",
+  "card_already_added": "Given card is already added, can not add the same card again"
+}

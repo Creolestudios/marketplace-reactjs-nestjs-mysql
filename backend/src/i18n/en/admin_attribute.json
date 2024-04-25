@@ -1,0 +1,9 @@
+{
+  "no_parent_category": "No Parent Category found for given ID",
+  "no_sub_category": "No Sub Category found for given ID",
+  "category_exists": "Category with similar name already exists",
+  "sub_category_exists": "Sub category with similar name already exists",
+  "parent_category_used_in_task": "This Parent Category is being used in a task",
+  "sub_category_used_in_task": "This Sub Category is being used in a task",
+  "sub_category_in_use": "Sub Category is being used in a task"
+}
